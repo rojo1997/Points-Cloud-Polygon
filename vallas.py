@@ -60,7 +60,8 @@ def perimeter_fence (points):
                 points.set_value(i,'polym',False)
                 update = True
         points = points[points['polym'] == True]
-        points = points.reset_index(drop=True)
+        #points = points.reset_index(drop=True)
+        draw_polym(points, 'r-',"Poligono reducido")
     points[['x','y']] = scaler.inverse_transform(points[['x','y']])
     draw_polym(points, 'r-',"Poligono reducido")
     return (points)
