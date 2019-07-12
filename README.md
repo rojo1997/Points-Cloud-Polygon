@@ -10,8 +10,10 @@
 
 ## <a id="a"></a> Scale the set points
 
-## <a id="b">To polar coordinates</a>
+<img src="http://latex.codecogs.com/svg.latex?\frac{x-\bar{x}}{\sigma }" border="0"/>
 
-## <a id="c">Sort by angle</a>
+## <a id="b"></a> To polar coordinates
 
-## Revolve triangle problem <a name="d"></a>
+## <a id="c"></a> Sort by angle
+
+## <a id="d"></a> Revolve triangle problem
