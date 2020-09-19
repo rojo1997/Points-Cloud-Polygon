@@ -1,19 +1,15 @@
-# Points Cloud Polygom
-<p>Minimize the perimeter polygom which encloses all points. Solution using polar coordinates.</p>
+# Vallado de Árboles
 
-<ol>
-    <li><a href="#a">Scale the set points</a></li>
-    <li><a href="#b">To polar coordinates</a></li>
-    <li><a href="#b">Sort by angle</a></li>
-    <li><a href="#b">Revolve triangle problem</a></li>
-</ol>
+## Descripción
 
-## <a id="a"></a> Scale the set points
+El problema del Vallado de Árboles consiste en determinar dado un conjunto de árboles en un espacio 2D el subconjunto que forme el perímetro del vallado para todo el conjunto. Todo árbol que no forme parte del perímetro debe quedar dentro del áerea que lo forma.
 
-<img src="http://latex.codecogs.com/svg.latex?\frac{x-\bar{x}}{\sigma }" border="0"/>
+## Solución
 
-## <a id="b"></a> To polar coordinates
+La solución a este problema se puede describir mediante los siguientes pasos:
 
-## <a id="c"></a> Sort by angle
-
-## <a id="d"></a> Revolve triangle problem
+1. Restar al conjunto de puntos su centroide.
+2. Pasar de coordenadas cartesianas a coordenadas polares.
+3. Ordenar el conjunto por el ángulo (indiferente) y la distancia (decreciente).
+4. Para subconjuntos que presenten mismo ángulo pero diferente distancia reducir al de mayor distancia.
+5. Iterar mediante ternas del tipo ((i-1) mod #D, i, (i+1) mod #D) sobre D
