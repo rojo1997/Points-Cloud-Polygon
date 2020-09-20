@@ -2,7 +2,7 @@
 
 ## Descripción
 
-El problema del Vallado de Árboles consiste en determinar dado un conjunto de árboles en un espacio 2D el subconjunto que forme el perímetro del vallado para todo el conjunto. Todo árbol que no forme parte del perímetro debe quedar dentro del áerea que lo forma.
+El problema del Vallado de Árboles consiste en determinar dado un conjunto de árboles en un espacio 2D el subconjunto que forme el perímetro del vallado para todo el conjunto. Todo árbol que no forme parte del perímetro debe quedar dentro del área que lo forma.
 
 ## Solución
 
